@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExpectationFailedExceptin.cs" />
+    <Compile Include="Expected.cs" />
+    <Compile Include="ExpectedExceptionAttribute.cs" />
+    <Compile Include="IExpected.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestClassAttribute.cs" />
+    <Compile Include="TestExtensions.cs" />
+    <Compile Include="TestMethodAttribute.cs" />
+    <Compile Include="UnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
